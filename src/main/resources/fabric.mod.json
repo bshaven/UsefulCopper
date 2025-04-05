@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "usefulcopper",
+	"version": "${version}",
+	"name": "UsefulCopper",
+	"description": "Gives Copper a whole new meaning to its purpose in Minecraft!",
+	"authors": [
+		"bshaven"
+	],
+	"contact": {
+		"homepage": "https://bshaven.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/usefulcopper/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bshaven.usefulcopper.UsefulCopper"
+		],
+		"fabric-datagen": [
+			"net.bshaven.usefulcopper.UsefulCopperDataGenerator"
+		],
+		"client": [
+			"net.bshaven.usefulcopper.UsefulCopperClient"
+		]
+	},
+	"mixins": [
+		"usefulcopper.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
