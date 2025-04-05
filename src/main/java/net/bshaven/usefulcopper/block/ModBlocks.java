@@ -33,7 +33,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        UsefulCopper.LOGGER.info("Registering Mod Blocks for " + UsefulCopper.MOD_ID);
+        UsefulCopper.LOGGER.info("Registering Blocks for " + UsefulCopper.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.PINK_GARNET_BLOCK);

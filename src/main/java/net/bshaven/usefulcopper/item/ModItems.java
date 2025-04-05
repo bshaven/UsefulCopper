@@ -18,7 +18,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        UsefulCopper.LOGGER.info("Registering Mod Items for " + UsefulCopper.MOD_ID);
+        UsefulCopper.LOGGER.info("Registering Items for " + UsefulCopper.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);

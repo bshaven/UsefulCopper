@@ -1,6 +1,7 @@
 package net.bshaven.usefulcopper;
 
 import net.bshaven.usefulcopper.block.ModBlocks;
+import net.bshaven.usefulcopper.item.ModItemGroups;
 import net.bshaven.usefulcopper.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class UsefulCopper implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
