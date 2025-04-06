@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "usefulcopper:pink_garnet_block",
+    "usefulcopper:raw_pink_garnet_block",
+    "usefulcopper:pink_garnet_ore",
+    "usefulcopper:pink_garnet_deepslate_ore"
+  ]
+}

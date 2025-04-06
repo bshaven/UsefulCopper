@@ -5,6 +5,9 @@
   "block.usefulcopper.pink_garnet_block": "Block of Pink Garnet",
   "block.usefulcopper.raw_pink_garnet_block": "Raw Block of Pink Garnet",
 
+  "block.usefulcopper.pink_garnet_ore": "Pink Garnet Ore",
+  "block.usefulcopper.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
   "itemgroup.usefulcopper.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.usefulcopper.pink_garnet_blocks": "Pink Garnet Blocks"
 }
